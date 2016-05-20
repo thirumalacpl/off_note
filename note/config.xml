@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.jqmshow.NoteKeeper" version="1.00">
+<name>NoteKeeper</name>
+<description>Keep record of notes</description>
+<author email="anele@mbangas.com" href="http://www.mbangas.com/notekeeper">Anele Mbanga</author>
+<icon src="app512.png" />
+<icon src="apps57.png" height="57" width="57"/>
+<icon src="apps72.png" height="72" width="72"/>
+<icon src="apps114.png" height="114" width="114"/>
+<icon height="144" width="144"/>
+<gap:splash src="app512.png" />
+<preference phonegap-version="3.6.3" />
+<preference fullscreen="true" />
+<preference splash-screen-duration="10000" />
+<preference android-minSdkVersion="7" />
+<preference android-maxSdkVersion="21" />
+<preference android-installLocation="auto" />
+<preference target-device="universal" />
+<preference webviewbounce="true" />
+<preference show-splash-screen-spinner="true" />
+<preference auto-hide-splash-screen="true" />
+<preference useBrowserHistory="true" />
+<preference exit-on-suspend="false" />
+<gap:plugin name="org.apache.cordova.camera" />
+<gap:plugin name="org.apache.cordova.media-capture" />
+<gap:plugin name="org.apache.cordova.device" />
+<gap:plugin name="org.apache.cordova.media" />
+<gap:plugin name="org.apache.cordova.splashscreen" />
+<gap:plugin name="org.apache.cordova.dialogs" />
+</widget>
